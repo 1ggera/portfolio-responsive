@@ -543,6 +543,11 @@ figure
 }
 @media screen and (max-width: 767px)
 {   
+    .burger-button
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .logo
     {
         width: auto;
@@ -665,6 +670,11 @@ figure
 }
 @media screen and (max-width: 480px)
 {   
+    .burger-button
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .logo-footer
     {
         margin-left: 0px;
@@ -722,6 +732,11 @@ figure
 }
 @media screen and (max-width: 320px)
 {   
+    .burger-button
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .burger-button
     {
         display: block;
