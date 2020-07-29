@@ -543,7 +543,7 @@ figure
 }
 @media screen and (max-width: 767px)
 {   
-    .burger-button
+    .icon-menu
     {
         margin-left: auto;
         margin-right: auto;
@@ -670,7 +670,7 @@ figure
 }
 @media screen and (max-width: 480px)
 {   
-    .burger-button
+    .icon-menu
     {
         margin-left: auto;
         margin-right: auto;
@@ -732,7 +732,7 @@ figure
 }
 @media screen and (max-width: 320px)
 {   
-    .burger-button
+    .icon-menu
     {
         margin-left: auto;
         margin-right: auto;
