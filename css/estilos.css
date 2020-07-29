@@ -545,8 +545,8 @@ figure
 {   
     .icon-menu
     {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: center;
+        margin-right: center;
     }
     .logo
     {
@@ -672,8 +672,8 @@ figure
 {   
     .icon-menu
     {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: center;
+        margin-right: center;
     }
     .logo-footer
     {
@@ -734,8 +734,8 @@ figure
 {   
     .icon-menu
     {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: center;
+        margin-right: center;
     }
     .burger-button
     {
