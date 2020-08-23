@@ -140,6 +140,7 @@
                     </div>
                 </div>
             </footer>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
             <script>
                 /*console.log('Hola humano, gracias por chekear mi web <vxt />')*/
                 const ipad = window.matchMedia('screen and (max-width: 767px)');
@@ -182,6 +183,10 @@
 	                menu.classList.remove('is-active');
                     });
                 }
+		var $body = document.body;
+		var gestos = new Hammer($body);
+		gestos.on('swipeleft', hideShow);
+		gestos.on('swiperight', hideShow);
             </script>
         </body>
     </html>
