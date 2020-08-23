@@ -182,17 +182,11 @@
                     menu.addEventListener('click', function() {
 	                menu.classList.remove('is-active');
                     });
-		    function showMenu(hideShow){
-	                menu.classList.add('is-active');
-                    };
-		    function hideMenu(hideShow){
-	                menu.classList.remove('is-active');
-                    };
-                }
+		}
 		var $body = document.body;
 		var gestos = new Hammer($body);
-		gestos.on('swipeleft', hideMenu);
-		gestos.on('swiperight', showMenu);
+		gestos.on('swipeleft', hideShow);
+		gestos.on('swiperight', hideShow);
             </script>
         </body>
     </html>
