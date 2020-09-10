@@ -4,7 +4,7 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Hello human! Soy Gera García</title>
-            <link rel="icon" type="image/png" href="images/favicon.png" /><!--tipo de relación + de archivo + enlace al elemento-->
+            <link rel="icon" type="image/png" href="images/favicon.png" />
             <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Raleway|Source+Code+Pro&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="css/estilos.css">
             <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -82,7 +82,6 @@
                     <article class="colaboration">
                         <figure class="flexible-video2">
                             <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/5e114-T2Ie0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            <!--<img class="colaboration-image" src="images/mediapartyhh2019.png" alt="imagen MP2019 ganadores hackaton" width="560">-->
                         </figure>
                         <div class="colaboration-details">
                             <h3 class="colaboration-title">Festival Media Party 2019 Periodismo y Tecnología</h3>
@@ -97,7 +96,6 @@
                             <div class="flexible-video">
                                 <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/jfBLwXPSU3M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
-                            <!--<img class="colaboration-image2" src="images/tedxperiments2019.png" alt="imagen tedx experiments 2019" width="490" height="657.92">-->
                         </figure>
                         <div class="colaboration-details">
                             <h3 class="colaboration-title">TedX Río de la Plata Los próximos 10 años TedX Experiments 2019</h3>
@@ -144,11 +142,10 @@
             <script>
                 /*console.log('Hola humano, gracias por chekear mi web <vxt />')*/
                 const ipad = window.matchMedia('screen and (max-width: 767px)');
-                const menu = document.querySelector('.menu'); /*1_ tenemos el menú*/
-                /*console.log(menu);*/
-                const burgerButton = document.querySelector('#burger-menu');/*3 pero ocurre gracias al selector del burgerButton*/
-                /*console.log(burgerButton);*/
-                if(ipad.matches)/*bloque que activa el botón en smartphones*/
+                const menu = document.querySelector('.menu');
+                const burgerButton = document.querySelector('#burger-menu');
+                
+                if(ipad.matches)/
                 {
                     burgerButton.addEventListener('click', hideShow);
                 }
@@ -159,7 +156,7 @@
                 {   
                     if (event.matches)
                     {
-                        burgerButton.addEventListener('click', hideShow)/*4_ y espera a q le den un click*/
+                        burgerButton.addEventListener('click', hideShow)
                     }
                     else
                     {
@@ -169,7 +166,7 @@
                 }
                 validation(ipad);
                 
-                function hideShow() /*5_ cuando le dan click eso lo mandamos a la función*/
+                function hideShow()
                 {   
                     if(menu.classList.contains('is-active'))
                     {
@@ -177,7 +174,7 @@
                     }
                     else
                     {
-                        menu.classList.add('is-active');/*_ que lomostramosgracias al is active*/
+                        menu.classList.add('is-active');
                     }
                     menu.addEventListener('click', function() {
 	                menu.classList.remove('is-active');
