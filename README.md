@@ -1,1 +1,1 @@
-# Mi portfolio responsive 😀
+# My portfolio responsive 😀
