@@ -50,7 +50,7 @@
   }
   .grid div {
     margin: 1%;
-    flex-shrink: 1;
+    flex-shrink: 0;
     overflow: hidden;
     background: white;
     border: 1px solid grey;
@@ -67,7 +67,6 @@
     border-radius: 5px;
     text-align: center;
   }
-  
   /*bordes de color cuando muevo el cursor*/
   .grid div:hover {
     border: 1px solid yellowgreen;
@@ -97,7 +96,7 @@ h6
 }
 h1
 {   
-    font-size: 43px; /*propiedad para tamaño de fuente*/
+    font-size: 43px; /*propiedad para tama帽o de fuente*/
     line-height: 1.2em;
     letter-spacing: -.2px;
     color: white;
@@ -123,11 +122,8 @@ h2
     background: -webkit-linear-gradient(#2d7a9c, #172F68);
     background: -moz-linear-gradient(#172F69, #172F81);
     background: -o-linear-gradient(#172F69, #172F81);
-    /*background: #022534;*/
-    /*background-image: url(../images/hero.jpg); los '..' marcan la salida de la carpeta y la busqueda de hero.jpg*/
-    /*background-size: 400px 320px; /*para darle tamaño a una secciónd del background*/
     background-repeat: no-repeat; /*para las repeticiones de la imagen*/
-    background-position-x: center; /*para la posición de la imagen de fondo*/
+    background-position-x: center; /*para la posici贸n de la imagen de fondo*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -142,7 +138,6 @@ h2
     background: -webkit-linear-gradient(#172F69 , #2d7a9c);   
     background: -moz-linear-gradient(#172F69 , #2d7a9c);
     background: -o-linear-gradient(#172F69 , #2d7a9c);
-    /*background: #094f6e;*/
     padding: 20px;
 }
 .project
@@ -196,24 +191,6 @@ h2
     margin: 0px 0px;
     text-align: center;
 }
-/* .project2
-{
-    border: 1px solid grey;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 0px 10px 30px 40px;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.project-title2
-{
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 10px;
-} */
 .project-blockchain,
 .project-entrepreneur,
 .project-date,
@@ -234,27 +211,6 @@ h2
 {
     max-width: 100%;   
 }
-/* .project2-details
-{
-    padding: 50px 0px 0px 0px;
-    width: 50%;
-    height: 280px;
-    display: inline-block;
-    margin: 0px 0px;
-}
-.project-imageContainer2
-{
-    padding: 70px 60px 0px 0px;
-    width: 50%;
-    height: 280px;
-    display: inline-block;
-    margin: 0px 0px;
-}
-.project-imageContainer2 img
-{
-    max-width: 100%;
-    
-} */
 .header
 {   
     background: -webkit-linear-gradient(#172F69,#022534);
@@ -338,7 +294,7 @@ figure
 {
     margin: 1%;
     width: 48%;    border-radius: 5px;
-    flex-shrink: 0; /*para que la imagen siempre quiera ocupar su dimensión original*/
+    flex-shrink: 0; /*para que la imagen siempre quiera ocupar su dimensi贸n original*/
     overflow: hidden; /*para ocultar las esquinas de las imagen q se sale del borde*/
     background-color: #f4fbff;
 }
@@ -401,7 +357,8 @@ figure
 {
    vertical-align: middle;
    justify-content: flex-end;
-   margin-left: 21px;
+   margin-left: 27px;
+   margin-right: 21px;
 }
 .footer a
 {
@@ -539,14 +496,6 @@ figure
 
 @media screen and (max-width: 1024px)
 {   
-    /*.logo
-    {
-        
-    }*/
-    .logo-footer
-    {
-        margin-left: 23px;
-    }
     .portfolio
     {
         padding: 20px 0;
@@ -554,7 +503,6 @@ figure
     .footer img
     {
         justify-content: center;
-        margin-left: 23px;
     }
     .container
     {
@@ -649,7 +597,6 @@ figure
     .project-imageContainer
     {
         width: auto;
-        /*text-align: center;*/
     }
     .project-imageContainer img
     {
@@ -707,10 +654,6 @@ figure
 }
 @media screen and (max-width: 480px)
 {   
-    .logo-footer
-    {
-        margin-left: 0px;
-    }
     .burger-button
     {
         display: block;
@@ -762,8 +705,10 @@ figure
         text-align: center;
         border: 1px solid transparent;
     }
-    .footer img {
-     margin-left:  0px;
+    .footer img
+    {
+        margin-right: 0px;
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 320px)
