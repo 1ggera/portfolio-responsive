@@ -73,9 +73,6 @@
   }  
 body
 {
-    /*background: -webkit-linear-gradient(#17bf63, #172f63);  (#000000, #1b2124) 17bf63
-    background: -moz-linear-gradient(#24dfbd, #5b68da);
-    background: -o-linear-gradient(#24dfbd, #5b68da);*/
     font-family: 'Raleway', sans-serif;
     margin: 0;
     background: #2d7a9c;
@@ -100,7 +97,6 @@ h1
     line-height: 1.2em;
     letter-spacing: -.2px;
     color: white;
-    /*margin: 0px 420px 10px 10px;*/
 }
 h1 strong
 {
@@ -109,7 +105,7 @@ h1 strong
 h2
 {
     color: white;
-    text-transform: uppercase;
+    /*text-transform: none;*/
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 35px;
@@ -123,7 +119,7 @@ h2
     background: -moz-linear-gradient(#172F69, #172F81);
     background: -o-linear-gradient(#172F69, #172F81);
     background-repeat: no-repeat; /*para las repeticiones de la imagen*/
-    background-position-x: center; /*para la posici贸n de la imagen de fondo*/
+    background-position-x: center; /*para la posicion de la imagen de fondo*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -216,7 +212,6 @@ h2
     background: -webkit-linear-gradient(#172F69,#022534);
     background: -moz-linear-gradient(#022534, #172F69);
     background: -o-linear-gradient(#022534, #172F69);
-    /*background-color: #022534; */
     color: white;
     display: flex;
     height: 90px;
@@ -232,6 +227,10 @@ h2
     height: inherit;
     align-items: center;
     padding: 0px;
+}
+.menu a:hover
+{
+    color: #0c8692;
 }
 .header ol 
 {
@@ -331,10 +330,8 @@ figure
     background: -webkit-linear-gradient(#360033, #360033);
     background: -moz-linear-gradient(#360033, #360033);
     background: -o-linear-gradient(#360033, #360033);
-    /*background: #0c8692;*/
     color: white;
-    height: 240px;
-    /*padding: 0px 20px 20px 20px;*/
+    height: 340px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -364,10 +361,6 @@ figure
 {
     color: white;
 }
-.titulo-contact
-{
-    color: white;
-}
 .social-link
 {   
     display: inline-block;
@@ -392,6 +385,15 @@ figure
 .social-link.facebook
 {
     background-image: url('../images/facebook.svg');
+}
+.contact h3
+{
+    font-size: 28px;
+}
+.titulo-contact
+{
+    color: white;
+    margin: 10px 0 5px 0;
 }
 .form-email
 {
