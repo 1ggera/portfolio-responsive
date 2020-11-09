@@ -121,6 +121,13 @@ h2
     justify-content: space-between;
     flex-wrap: wrap;
 }
+#hero
+{
+    justify-content: center;
+    background: -webkit-linear-gradient(#172F69, #2d7a9c);
+    background: -moz-linear-gradient(#172F69, #2d7a9c);
+    background: -o-linear-gradient(#172F69, #2d7a9c);
+}
 .hero-image
 {
     object-fit: cover;/*para autocorregir las dimensiones de las imagenes*/
@@ -131,6 +138,12 @@ h2
     background: -moz-linear-gradient(#172F69 , #2d7a9c);
     background: -o-linear-gradient(#172F69 , #2d7a9c);
     padding: 20px;
+}
+#portfolio
+{
+    background: -webkit-linear-gradient(#172F69, #ffffff);
+    background: -moz-linear-gradient(#172F69, #ffffff);
+    background: -o-linear-gradient(#172F69, #ffffff);
 }
 .project
 {
