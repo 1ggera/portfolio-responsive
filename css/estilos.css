@@ -115,9 +115,9 @@ h2
 .hero
 {   
     height: 280px;
-    background: -webkit-linear-gradient(#2d7a9c, #172F68);
-    background: -moz-linear-gradient(#172F69, #172F81);
-    background: -o-linear-gradient(#172F69, #172F81);
+    background: -webkit-linear-gradient(#2d7a9c, #172F69);
+    background: -moz-linear-gradient(#2d7a9c, #172F69);
+    background: -o-linear-gradient(#2d7a9c, #172F69);
     background-repeat: no-repeat; /*para las repeticiones de la imagen*/
     background-position-x: center; /*para la posicion de la imagen de fondo*/
     display: flex;
@@ -210,8 +210,8 @@ h2
 .header
 {   
     background: -webkit-linear-gradient(#172F69,#022534);
-    background: -moz-linear-gradient(#022534, #172F69);
-    background: -o-linear-gradient(#022534, #172F69);
+    background: -moz-linear-gradient(#172F69,#022534);
+    background: -o-linear-gradient(#172F69,#022534);
     color: white;
     display: flex;
     height: 90px;
@@ -339,7 +339,7 @@ figure
 }
 .footer
 {   
-    background: -webkit-linear-gradient(#172F71, #022534);
+    background: -webkit-linear-gradient(#172F69, #022534);
     background: -moz-linear-gradient(#172F69, #022534);
     background: -o-linear-gradient(#172F69, #022534);
     /*background-color: #360033;172F69*/
