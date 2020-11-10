@@ -111,9 +111,9 @@ h2
 .hero
 {   
     height: 280px;
-    background: -webkit-linear-gradient(#2d7a9c, #172F68);
-    background: -moz-linear-gradient(#172F69, #172F81);
-    background: -o-linear-gradient(#172F69, #172F81);
+    background: -webkit-linear-gradient(#2d7a9c, #172F69);
+    background: -moz-linear-gradient(#2d7a9c, #172F69);
+    background: -o-linear-gradient(#2d7a9c, #172F69);
     background-repeat: no-repeat; /*para las repeticiones de la imagen*/
     background-position-x: center; /*para la posicion de la imagen de fondo*/
     display: flex;
@@ -141,9 +141,9 @@ h2
 }
 #portfolio
 {
-    background: -webkit-linear-gradient(#172F69, #ffffff);
-    background: -moz-linear-gradient(#172F69, #ffffff);
-    background: -o-linear-gradient(#172F69, #ffffff);
+    background: -webkit-linear-gradient(#2d7a9c, #ffffff);
+    background: -moz-linear-gradient(#2d7a9c, #ffffff);
+    background: -o-linear-gradient(#2d7a9c, #ffffff);
 }
 .project
 {
