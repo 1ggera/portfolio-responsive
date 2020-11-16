@@ -135,19 +135,23 @@
                 </div>
             </section>
             <section id="contacto" class="contact">
-                <div class="container">
-                    <form action="hola@geragarcia.digital" method="get" class="form-email">
-                        <h3 class="titulo-contact">Trabajemos en un proyecto juntos</h3>
-                        <input type="email" placeholder="Deja tu email" id="email" autocomplete="email" required></input>
-                        <button class="button-contact">¡Comencemos!</button>
-                    </form>
-                    <div class="social">
-                        <a href="https://twitter.com/gerra1g/" class="social-link twitter" target="_blanck"></a>
-                        <a href="https://github.com/1ggera/" class="social-link github" target="_blanck"></a>
-                        <a href="https://www.facebook.com/Gera-Digital-114472573531226" class="social-link facebook" target="_blanck"></a>
-                        <a href="https://www.instagram.com/digital.gera/" class="social-link instagram" target="_blanck"></a>
-                    </div>
-               </div>
+		<div class="container">
+			<form action="mailto:hola@geragarcia.digital" class="form-email" id="formulario" name="formulario" method="POST">
+				<h3 class="titulo-contact">Trabajemos en un proyecto juntos</h3>
+				<div class="contenedor-inputs">
+				    <input type="text" name="nombre" placeholder="Nombre" required id="nombre">
+				    <input type="text" name="correo" placeholder="tu@email" id="email" required>
+				    <div class="terminos" style="margin-top: 10px;">
+					<label for="terminos">
+					    <input type="checkbox" name="terminos" id="terminos" required>Acepto la
+					    <a href="http://geragarcia.digital/110292/politica-de-privacidad/" class="terminos" target="_blank">política de privacidad</a>.
+					</label>
+				    </div>
+				    <ul class="error" id="error"></ul>
+				</div>
+				<button class="button-contact">¡Comencemos!</button>
+			</form>
+		</div>
             </section>
             <footer class="footer">
                 <div class="container">
