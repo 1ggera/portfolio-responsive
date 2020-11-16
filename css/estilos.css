@@ -371,6 +371,15 @@ figure
 {
     color: white;
 }
+.contact h3
+{
+    font-size: 2rem;
+}
+.titulo-contact
+{
+    color: white;
+    margin-bottom: 10px;
+}
 .social-link
 {   
     display: inline-block;
@@ -395,15 +404,6 @@ figure
 .social-link.facebook
 {
     background-image: url('../images/facebook.svg');
-}
-.contact h3
-{
-    font-size: 28px;
-}
-.titulo-contact
-{
-    color: white;
-    margin: 10px 0 5px 0;
 }
 .form-email
 {
