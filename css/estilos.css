@@ -422,6 +422,27 @@ figure
     background-position-y: center;
     background-position-x: 5px;
 }
+#nombre
+{
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #2d7a9c;
+    border-style: solid;
+    padding: 10px 50px 8px 10px;
+}
+#email
+{
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #2d7a9c;
+    border-style: solid;
+    padding: 10px 50px 8px 30px;
+    background-image: url('../images/envelope.svg');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
 .button-contact
 {
     display: block;
