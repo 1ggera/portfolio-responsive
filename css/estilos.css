@@ -417,7 +417,7 @@ figure
 #nombre
 { 
     justify-content: center;
-    font-size: 45%;
+    width: 45%;
     font-size: 16px;
     border-radius: 10px;
     border-color: #2d7a9c;
