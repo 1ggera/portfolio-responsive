@@ -696,6 +696,10 @@ figure
         width: auto;
         margin: 0.2em auto;
     }
+    .form-email
+    {
+        text-align: center;
+    }
     .footer
     {
         display: flex;
