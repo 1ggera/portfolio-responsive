@@ -341,7 +341,7 @@ figure
     background: -moz-linear-gradient(#360033, #360033);
     background: -o-linear-gradient(#360033, #360033);
     color: white;
-    height: 340px;
+    height: 29rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -364,7 +364,7 @@ figure
 {
    vertical-align: middle;
    justify-content: flex-end;
-   margin-left: 27px;
+   margin-left: 31px;
    margin-right: 21px;
 }
 .footer a
@@ -379,6 +379,11 @@ figure
 {
     color: white;
     margin-bottom: 10px;
+    margin-top: 10px;
+}
+.social
+{
+  margin: 10px;
 }
 .social-link
 {   
@@ -410,25 +415,38 @@ figure
     margin: 10px;
 }
 #nombre
-{
+{ 
+    justify-content: center;
+    font-size: 45%;
     font-size: 16px;
     border-radius: 10px;
     border-color: #2d7a9c;
     border-style: solid;
-    padding: 10px 50px 8px 10px;
+    padding: 10px 10px 8px 10px;
 }
 #email
 {
+    margin-top: 0.2em;
+    width: 45%;
     font-size: 16px;
     border-radius: 10px;
     border-color: #2d7a9c;
     border-style: solid;
-    padding: 10px 50px 8px 30px;
-    background-image: url('../images/envelope.svg');
+    padding: 10px 10px 8px 10px;
+    /*background-image: url('../images/envelope.svg');*/
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
+}
+#mensaje
+{   
+    width: 19.8em;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #2d7a9c;
+    border-style: solid;
+    padding: 10px 0 0px 10px;
 }
 .button-contact
 {
@@ -437,8 +455,8 @@ figure
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
-    width: 150px;
-    margin: 10px 0px;
+    width: 24.3em;
+    margin: 0.01em 0px;
 }
 .container
 {   
@@ -665,6 +683,21 @@ figure
     {
         margin: 10px;
     }
+    .contact
+    {
+        justify-content: center;
+        text-align: center;
+        padding: 1.5em 0;
+    }
+    .titulo-contact
+    {
+        margin: 0 10px 10px;
+    }
+    .contact .button-contact
+    {
+        width: auto;
+        margin: 0.2em auto;
+    }
     .footer
     {
         display: flex;
@@ -711,13 +744,17 @@ figure
         text-align: center;
         display: block;
     }
-    .form-email button
+    #nombre
     {
-        margin: 1em auto;
+        width: 14.5em;
     }
-    .form-email h3
+    #email
     {
-        margin-top: 0;
+        width: 14.5em;
+    }
+    #mensaje
+    {
+        width: 16em;
     }
     .footer
     {
@@ -727,7 +764,7 @@ figure
     }
     .footer img
     {
-        margin-right: 0px;
+        margin-right: 0;
         margin-left: 0;
     }
 }
