@@ -137,16 +137,20 @@
             <section id="contacto" class="contact">
 		<div class="container">
 			<form action="mailto:hola@geragarcia.digital" class="form-email" id="formulario" name="formulario" method="POST">
-				<h3 class="titulo-contact">Trabajemos en un proyecto juntos</h3>
+				<h3 class="titulo-contact">Escríbeme un mensaje</h3>
 				<div class="contenedor-inputs">
 				    <input type="text" name="nombre" placeholder="Nombre" required id="nombre">
 				    <input type="text" name="correo" placeholder="tu@email" id="email" required>
-				    <div class="terminos" style="margin-top: 10px;">
+				    	<br>
+                        		<br>
+                        		<textarea name="mensaje" id="mensaje" placeholder="Mensaje" cols="36" rows="6" required>
+					</textarea>
+				    /*<div class="terminos" style="margin-top: 10px;">
 					<label for="terminos">
 					    <input type="checkbox" name="terminos" id="terminos" required>Acepto la
 					    <a href="http://geragarcia.digital/110292/politica-de-privacidad/" class="terminos" target="_blank" style="color: burlywood">política de privacidad</a>.
 					</label>
-				    </div>
+				    </div>*/
 				    <ul class="error" id="error"></ul>
 				</div>
 				<button class="button-contact">¡Comencemos!</button>
