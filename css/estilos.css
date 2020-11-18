@@ -744,11 +744,7 @@ figure
         text-align: center;
         display: block;
     }
-    #nombre
-    {
-        width: 14.5em;
-    }
-    #email
+    #nombre #email
     {
         width: 14.5em;
     }
