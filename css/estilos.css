@@ -416,7 +416,6 @@ figure
 }
 #nombre
 { 
-    justify-content: center;
     width: 45%;
     font-size: 16px;
     border-radius: 10px;
@@ -455,7 +454,7 @@ figure
     color: white;
     padding: 10px 30px;
     border-radius: 10px;
-    width: 24.5em;
+    width: 38em;
     margin: 0.01em 0px;
 }
 .container
