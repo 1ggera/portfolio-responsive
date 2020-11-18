@@ -647,6 +647,10 @@ figure
     {
         margin: 10px;
     }
+    .form-email
+    {
+        text-align: center;
+    }
     .footer
     {
         display: flex;
