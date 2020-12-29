@@ -70,6 +70,7 @@
   /*bordes de color cuando muevo el cursor*/
   .grid div:hover {
     border: 1px solid #2d7a9c;
+    background: (0,0,0,0.3);
   }  
 body
 {
